@@ -875,34 +875,3 @@ html.dark .with-pastel-balls::before {
 .semi-datepicker-range-input {
   border-radius: 10px !important;
 }
-
-/* ==================== 自定义主题色（粉紫 + 金色）==================== */
-/* 粉紫作为全站主色：按钮/高亮/选中态/主要交互 */
-/* 金色作为点缀色：建议映射到 Warning（提示/徽标/部分强调） */
-
-:root {
-  /* ===== 粉紫 Primary ===== */
-  --semi-color-primary: #d946ef;          /* 主色：粉紫 */
-  --semi-color-primary-hover: #c026d3;    /* 悬浮 */
-  --semi-color-primary-active: #a21caf;   /* 按下 */
-  --semi-color-focus-border: rgba(217, 70, 239, 0.55);
-
-  /* 一些组件会用到“浅色背景版 primary”（如 Tag、背景高亮等） */
-  --semi-color-primary-light-default: rgba(217, 70, 239, 0.14);
-  --semi-color-primary-light-hover: rgba(217, 70, 239, 0.20);
-  --semi-color-primary-light-active: rgba(217, 70, 239, 0.26);
-
-  /* 链接色：保持跟主色一致（也可以改成金色，看你偏好） */
-  --semi-color-link: #d946ef;
-  --semi-color-link-hover: #c026d3;
-  --semi-color-link-active: #a21caf;
-
-  /* ===== 金色 Warning（点缀色）===== */
-  --semi-color-warning: #d4af37;          /* 香槟金 */
-  --semi-color-warning-hover: #c9a227;
-  --semi-color-warning-active: #b68e1d;
-
-  --semi-color-warning-light-default: rgba(212, 175, 55, 0.16);
-  --semi-color-warning-light-hover: rgba(212, 175, 55, 0.22);
-  --semi-color-warning-light-active: rgba(212, 175, 55, 0.28);
-}
